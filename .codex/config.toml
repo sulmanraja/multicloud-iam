@@ -1,0 +1,9 @@
+model = "gpt-5.4-mini"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[tools]
+web_search = true
+
+[project]
+name = "multicloud-iam-codex-starter"
