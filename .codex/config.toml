@@ -6,4 +6,4 @@ sandbox_mode = "workspace-write"
 web_search = true
 
 [project]
-name = "multicloud-iam-codex-starter"
+name = "multicloud-iam"
