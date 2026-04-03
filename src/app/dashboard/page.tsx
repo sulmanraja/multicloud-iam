@@ -13,6 +13,7 @@ export default async function DashboardPage() {
         eyebrow="Dashboard"
         title="IAM sprawl, risk posture, and operator queue"
         description={overview.narrative}
+        tags={["Read-only", "Demo-backed", "Cross-cloud"]}
       />
 
       <KpiGrid metrics={overview.metrics} />

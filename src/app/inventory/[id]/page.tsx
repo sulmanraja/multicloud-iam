@@ -18,6 +18,7 @@ export default async function InventoryDetailPage({ params }: { params: Promise<
         eyebrow="Definition Detail"
         title={detail.definition.name}
         description="Placeholder drill-down for permissions, assignments, risk notes, and eventual role diff workflows."
+        tags={[detail.definition.cloud, detail.definition.definitionType, `${detail.definition.usageCoveragePct}% coverage`]}
       />
 
       <div className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">

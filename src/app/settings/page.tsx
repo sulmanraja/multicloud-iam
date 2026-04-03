@@ -11,6 +11,7 @@ export default async function SettingsPage() {
         eyebrow="Settings"
         title="Environment, providers, and demo controls"
         description="This scaffold keeps demo mode on by default so the operational console can be exercised safely before provider adapters, auth, and persistence arrive."
+        tags={["Demo mode", "Environment", "Provider configuration"]}
       />
 
       <div className="grid gap-6 lg:grid-cols-2">

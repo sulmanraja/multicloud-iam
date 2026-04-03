@@ -18,6 +18,7 @@ export default async function PrincipalDetailPage({ params }: { params: Promise<
         eyebrow="Principal Detail"
         title={detail.principal.displayName}
         description="Placeholder investigation view for direct assignments, effective access, evidence timeline, and recommendation context."
+        tags={[detail.principal.cloud, detail.principal.principalType, `${detail.assignments.length} assignments`]}
       />
 
       <div className="grid gap-6 xl:grid-cols-[0.85fr_1.15fr]">

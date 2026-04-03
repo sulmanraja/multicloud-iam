@@ -13,6 +13,7 @@ export default async function RoleStudioPage() {
         eyebrow="Role Studio"
         title="Draft custom roles and policies safely"
         description={studio.narrative}
+        tags={["Draft only", "Provider validation", "Diff-first"]}
       />
 
       <div className="grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">

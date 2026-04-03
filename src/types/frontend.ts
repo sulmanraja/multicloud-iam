@@ -4,6 +4,12 @@ export interface AppNavItem {
   title: string;
   href: string;
   description: string;
+  shortTitle?: string;
+}
+
+export interface FilterOption {
+  label: string;
+  value: string;
 }
 
 export interface DashboardMetric {

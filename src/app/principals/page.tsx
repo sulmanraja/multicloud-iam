@@ -15,9 +15,13 @@ export default async function PrincipalsPage() {
         eyebrow="Principal Access Explorer"
         title="Explain who has access and why"
         description={principals.narrative}
+        tags={["Why-access", "Effective permissions", "Usage evidence"]}
       />
 
-      <FilterBar hint="Future drill-downs will include inheritance, group nesting, last-used, and dangerous permission pivots." />
+      <FilterBar
+        hint="Future drill-downs will include inheritance, group nesting, last-used, and dangerous permission pivots."
+        searchPlaceholder="Search principal, assignment, or dangerous permission"
+      />
 
       <Panel title="Principals" description="Effective access overview seeded from the demo inventory.">
         <DataTable

@@ -15,9 +15,13 @@ export default async function InventoryPage() {
         eyebrow="Role Inventory"
         title="Unified role and policy inventory"
         description={inventory.narrative}
+        tags={["Provider-managed", "Custom definitions", "Searchable"]}
       />
 
-      <FilterBar hint="Planned filters: cloud, scope, type, risk, team, and resource class." />
+      <FilterBar
+        hint="Planned filters: cloud, scope, type, risk, team, and resource class."
+        searchPlaceholder="Search role, policy, permission, or action"
+      />
 
       <Panel title="Definitions" description="Shared inventory table scaffolded for dense operator workflows.">
         <DataTable
