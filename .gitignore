@@ -4,6 +4,7 @@ node_modules/
 dist/
 .next/
 out/
+.vercel/
 
 # TypeScript
 *.tsbuildinfo
@@ -21,6 +22,10 @@ pnpm-debug.log*
 
 # Test and coverage output
 coverage/
+
+# Tooling caches
+.turbo/
+.cache/
 
 # OS/editor noise
 .DS_Store
